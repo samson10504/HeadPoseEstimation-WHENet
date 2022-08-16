@@ -38,6 +38,10 @@ demo_video.py [--video INPUT_VIDEO_PATH] [--snapshot WHENET_MODEL] [--display DI
 ````
 Please set `--video ''` for webcam input. 
 
+## Requirement
+- [CUDA9.0](https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal) with four patches installed 
+- [cuDNN v7.4.2 (Dec 14, 2018), for CUDA 9.0](https://developer.nvidia.com/rdp/cudnn-archive)
+
 ## Dependncies
 * EfficientNet https://github.com/qubvel/efficientnet
 * Yolo_v3 https://github.com/qqwweee/keras-yolo3
